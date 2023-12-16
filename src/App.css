@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* COMMON RULES */
+/* COMMON RULES */
+/* COMMON RULES */
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: black;
+  color: white;
+}
+.container {
+  margin-left: 50px;
+}
+header {
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+header img {
+  height: 100%;
+  width: 210px;
+  object-fit: cover;
+  object-position: right;
+}
+h2 {
+  font-size: 22px;
+  margin: 20px 0;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* MAIN */
+/* MAIN */
+/* MAIN */
+
+section {
+  margin-bottom: 40px;
+}
+.images-div > div {
+  display: flex;
+  height: 200px;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+.images-div img {
+  flex-shrink: 0;
+}
+
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
+
+footer {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  font-size: 18px;
+}
+footer p {
+  display: flex;
+  align-items: center;
+}
+footer img {
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+footer a {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+footer i {
+  font-size: 30px;
+  margin-right: 10px;
+}

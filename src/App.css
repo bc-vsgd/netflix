@@ -55,33 +55,36 @@ section {
 
 footer {
   height: 80px;
+  font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-footer {
-  font-size: 18px;
+  position: sticky;
+  bottom: 0;
 }
 footer p {
+  border: 2px solid #ff1b0c;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px 20px;
   display: flex;
   align-items: center;
 }
 footer img {
   height: 30px;
   margin-right: 10px;
-  border-radius: 5px;
+  border-radius: 50%;
 }
 footer a {
-  color: white;
+  color: #ff1b0c;
   text-decoration: none;
   font-weight: 700;
-}
-footer a {
   display: flex;
   align-items: center;
   margin: 0 10px;
 }
 footer i {
+  color: white;
   font-size: 30px;
   margin-right: 10px;
 }

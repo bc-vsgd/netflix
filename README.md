@@ -1,4 +1,11 @@
-# React + Vite
+# Netflix - Exercise with React & Vite
+
+Exercise made during fullstack developper bootcamp training provided by [Le Reacteur](https://www.lereacteur.io/).
+Fourth part: [React](https://fr.legacy.reactjs.org/).
+
+Watch the result on [Netlify](https://golden-pegasus-dc7b8c.netlify.app/).
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
